@@ -1,0 +1,52 @@
+2022-03-22 11:11:31,072 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-5] Readuser from auth
+2022-03-22 11:13:13,922 INFO com.example.demo.SpringSecurityApplication [main] Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 873849 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-22 11:13:13,924 INFO com.example.demo.SpringSecurityApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-03-22 11:13:15,467 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-03-22 11:13:46,117 INFO com.example.demo.SpringSecurityApplication [main] Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 874335 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-22 11:13:46,119 INFO com.example.demo.SpringSecurityApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-03-22 11:13:47,543 INFO com.example.demo.SpringSecurityApplication [main] Started SpringSecurityApplication in 1.738 seconds (JVM running for 2.243)
+2022-03-22 11:15:36,551 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-1] Readuser from auth
+2022-03-22 11:15:36,599 WARN com.example.demo.Controller.JwtController [http-nio-8080-exec-1] Use proper credential to login 
+2022-03-22 11:15:36,600 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-1] User found 
+2022-03-22 11:15:36,606 INFO com.example.demo.Controller.JwtController [http-nio-8080-exec-1] Token Accessed
+2022-03-22 11:15:36,606 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-1] User found 
+2022-03-22 11:15:36,606 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-1] Generate token for user
+2022-03-22 11:15:36,606 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-1] while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-22 11:15:53,663 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-3] Readuser from auth
+2022-03-22 11:15:53,663 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] retrieve username from jwt token
+2022-03-22 11:15:53,664 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] Secret key 
+2022-03-22 11:15:53,680 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-3] User found 
+2022-03-22 11:15:53,683 WARN com.example.demo.Controller.JwtController [http-nio-8080-exec-3] Use proper credential to login 
+2022-03-22 11:15:53,684 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-3] User found 
+2022-03-22 11:15:53,684 INFO com.example.demo.Controller.JwtController [http-nio-8080-exec-3] Token Accessed
+2022-03-22 11:15:53,684 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-3] User found 
+2022-03-22 11:15:53,684 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] Generate token for user
+2022-03-22 11:15:53,684 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-22 11:15:55,069 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-4] Readuser from auth
+2022-03-22 11:15:55,070 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-4] retrieve username from jwt token
+2022-03-22 11:15:55,070 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-4] Secret key 
+2022-03-22 11:15:55,071 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-4] User found 
+2022-03-22 11:15:55,072 WARN com.example.demo.Controller.JwtController [http-nio-8080-exec-4] Use proper credential to login 
+2022-03-22 11:15:55,072 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-4] User found 
+2022-03-22 11:15:55,072 INFO com.example.demo.Controller.JwtController [http-nio-8080-exec-4] Token Accessed
+2022-03-22 11:15:55,072 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-4] User found 
+2022-03-22 11:15:55,073 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-4] Generate token for user
+2022-03-22 11:15:55,073 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-4] while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-22 11:16:35,406 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-5] Readuser from auth
+2022-03-22 11:16:35,407 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-5] retrieve username from jwt token
+2022-03-22 11:16:35,407 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-5] Secret key 
+2022-03-22 11:16:35,408 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-5] User found 
+2022-03-22 11:16:35,409 INFO com.example.demo.Controller.Home [http-nio-8080-exec-5] Authorization was successful 

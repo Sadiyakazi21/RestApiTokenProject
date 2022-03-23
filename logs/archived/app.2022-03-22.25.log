@@ -1,0 +1,37 @@
+2022-03-22 11:16:52,461 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-7] Readuser from auth
+2022-03-22 11:16:52,463 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-7] retrieve username from jwt token
+2022-03-22 11:16:52,463 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-7] Secret key 
+2022-03-22 11:16:52,464 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-7] User found 
+2022-03-22 11:16:52,465 INFO com.example.demo.Controller.Home [http-nio-8080-exec-7] Authorization was successful 
+2022-03-22 11:16:57,430 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-9] Readuser from auth
+2022-03-22 11:16:57,431 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-9] retrieve username from jwt token
+2022-03-22 11:16:57,431 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-9] Secret key 
+2022-03-22 11:16:57,432 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-9] User found 
+2022-03-22 11:16:57,433 INFO com.example.demo.Controller.Home [http-nio-8080-exec-9] Authorization was successful 
+2022-03-22 11:17:05,045 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-2] Readuser from auth
+2022-03-22 11:17:05,045 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-2] retrieve username from jwt token
+2022-03-22 11:17:05,045 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-2] Secret key 
+2022-03-22 11:17:05,046 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-2] User found 
+2022-03-22 11:17:05,048 WARN com.example.demo.Controller.JwtController [http-nio-8080-exec-2] Use proper credential to login 
+2022-03-22 11:17:05,048 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-2] User found 
+2022-03-22 11:17:05,049 ERROR com.example.demo.Controller.JwtController [http-nio-8080-exec-2] Error !!!Wrong Credentials
+2022-03-22 11:19:46,625 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-3] Readuser from auth
+2022-03-22 11:19:46,626 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] retrieve username from jwt token
+2022-03-22 11:19:46,626 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] Secret key 
+2022-03-22 11:19:46,627 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-3] User found 
+2022-03-22 17:34:38,102 INFO com.example.demo.SpringSecurityApplication [main] Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 931532 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-22 17:34:38,104 INFO com.example.demo.SpringSecurityApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-03-22 17:34:39,668 INFO com.example.demo.SpringSecurityApplication [main] Started SpringSecurityApplication in 1.945 seconds (JVM running for 2.477)
+2022-03-22 17:35:15,919 INFO com.example.demo.SpringSecurityApplication [main] Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 932067 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-22 17:35:15,922 INFO com.example.demo.SpringSecurityApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-03-22 17:35:17,565 INFO com.example.demo.SpringSecurityApplication [main] Started SpringSecurityApplication in 2.018 seconds (JVM running for 2.539)
+2022-03-22 17:36:25,644 INFO com.example.demo.SpringSecurityApplication [main] Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 933002 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-22 17:36:25,647 INFO com.example.demo.SpringSecurityApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-03-22 17:36:27,345 INFO com.example.demo.SpringSecurityApplication [main] Started SpringSecurityApplication in 2.105 seconds (JVM running for 2.636)
+2022-03-22 17:40:51,044 INFO com.example.demo.SpringSecurityApplication [main] Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 936381 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-22 17:40:51,047 INFO com.example.demo.SpringSecurityApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-03-22 17:40:52,791 INFO com.example.demo.SpringSecurityApplication [main] Started SpringSecurityApplication in 2.13 seconds (JVM running for 2.639)
+2022-03-22 17:40:59,186 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-1] Readuser from auth
+2022-03-22 17:40:59,237 WARN com.example.demo.Controller.JwtController [http-nio-8080-exec-1] Use proper credential to login 
+2022-03-22 17:40:59,238 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-1] User found 
+2022-03-22 17:40:59,239 INFO com.example.demo.Controller.JwtController [http-nio-8080-exec-1] Token Accessed

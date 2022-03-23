@@ -54,14 +54,20 @@ public class MySecruityConfig  extends WebSecurityConfigurerAdapter{
 		 	.disable()
 		 	.authorizeRequests()
 		 	
-		 	.antMatchers("/login").permitAll()
-		 	.anyRequest().authenticated()
+		.antMatchers("/login","/logout").permitAll()
+	 
+		.anyRequest().authenticated()
 		 	.and()
 		 	.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS );
 		
+	
+		
 		  http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+		  
+		  
 
 	}
+	
 	
 	@Bean
 	public PasswordEncoder passwordEncoder() {

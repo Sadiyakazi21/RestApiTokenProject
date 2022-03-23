@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.Exception.UserServiceException;
 import com.example.demo.Service.CustomUserDetailsService;
 import com.example.demo.jwthelper.JwtUtil;
 import com.example.demo.model.JwtRequest;
@@ -40,7 +41,7 @@ public class JwtController{
 	  public ResponseEntity<JwtResponse> generateToken( @RequestBody JwtRequest jwtRequest)   throws Exception {
 		  
 	
-		  
+		 logger.warn("Use proper credential to login ");
 		  System.out.println(jwtRequest);
 		  try {
 
@@ -49,15 +50,67 @@ public class JwtController{
 
 	        } catch (UsernameNotFoundException e) {
 	            e.printStackTrace();
-	            throw new Exception("Bad Credentials");
+	            
+	            logger.error("Error !!!Wrong Credentials" );
+	            throw new Exception("Usename not found");
+	          
 	        }
 		  catch (BadCredentialsException e)
+		  
 	        {
+			  logger.error("Error !!!Wrong Credentials" );
 	            e.printStackTrace();
 	            throw new Exception("Bad Credentials");
 	        }
 
 		   //fine area..
+		  
+		  logger.info("Token Accessed");
+		  
+	        UserDetails userDetails = this.customUserDetailsService.loadUserByUsername(jwtRequest.getUsername());
+
+	        String token = this.jwtUtil.generateToken(userDetails);
+	        System.out.println("JWT " + token);
+
+	        //{"token":"value"}
+
+	       
+	        return ResponseEntity.ok(new JwtResponse(token));
+
+		  
+		 
+	  }
+	 
+	
+	/*@RequestMapping(value = "/logout")
+	  public ResponseEntity<JwtResponse> refreshtoken( @RequestBody JwtRequest jwtRequest)   throws Exception {
+		  
+	
+		 logger.warn("Use proper credential to login ");
+		  System.out.println(jwtRequest);
+		  try {
+
+	            this.authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(jwtRequest.getUsername(), jwtRequest.getPassword()));
+
+
+	        } catch (UsernameNotFoundException e) {
+	            e.printStackTrace();
+	            
+	            logger.error("Error !!!Wrong Credentials" );
+	            throw new Exception("Bad Credentials");
+	          
+	        }
+		  catch (BadCredentialsException e)
+		  
+	        {
+			  logger.error("Error !!!Wrong Credentials" );
+	            e.printStackTrace();
+	            throw new Exception("Bad Credentials");
+	        }
+
+		   //fine area..
+		  
+		  logger.info("Token Accessed");
 	        UserDetails userDetails = this.customUserDetailsService.loadUserByUsername(jwtRequest.getUsername());
 
 	        String token = this.jwtUtil.generateToken(userDetails);
@@ -70,6 +123,8 @@ public class JwtController{
 		  
 		 
 	  }
-	
-
+	*/
+	 
+	     
+	    
 }

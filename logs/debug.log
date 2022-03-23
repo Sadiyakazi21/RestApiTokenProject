@@ -1,26 +1,276 @@
-2022-03-02 12:56:43 [main] INFO  c.e.demo.SpringSecurityApplication -
-				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 39230 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
-2022-03-02 12:56:43 [main] DEBUG c.e.demo.SpringSecurityApplication -
+2022-03-14 08:13:33 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 7253 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-14 08:13:33 [main] DEBUG c.e.demo.SpringSecurityApplication -
 				Running with Spring Boot v2.6.4, Spring v5.3.16
-2022-03-02 12:56:43 [main] INFO  c.e.demo.SpringSecurityApplication -
+2022-03-14 08:13:33 [main] INFO  c.e.demo.SpringSecurityApplication -
 				No active profile set, falling back to 1 default profile: "default"
-2022-03-02 12:56:44 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+2022-03-14 08:13:35 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
 				Filter 'jwtAthenticationfilter' configured for use
-2022-03-02 12:56:45 [main] INFO  c.e.demo.SpringSecurityApplication -
-				Started SpringSecurityApplication in 2.434 seconds (JVM running for 2.961)
-2022-03-02 12:56:53 [http-nio-8080-exec-1] DEBUG com.example.demo.Controller.Home -
+2022-03-14 08:13:35 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 2.635 seconds (JVM running for 3.356)
+2022-03-14 08:20:27 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 08:20:27 [http-nio-8080-exec-1] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-14 08:20:41 [http-nio-8080-exec-4] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 08:20:41 [http-nio-8080-exec-4] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-14 08:20:49 [http-nio-8080-exec-6] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 08:20:49 [http-nio-8080-exec-6] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-14 08:20:50 [http-nio-8080-exec-8] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 08:20:50 [http-nio-8080-exec-8] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-14 08:21:18 [http-nio-8080-exec-10] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 08:21:18 [http-nio-8080-exec-10] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-14 08:22:00 [http-nio-8080-exec-2] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 08:22:00 [http-nio-8080-exec-2] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-14 08:22:12 [http-nio-8080-exec-1] DEBUG com.example.demo.Controller.Home -
 				login success done
-2022-03-02 13:05:54 [main] INFO  c.e.demo.SpringSecurityApplication -
-				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 39726 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
-2022-03-02 13:05:54 [main] DEBUG c.e.demo.SpringSecurityApplication -
+2022-03-14 08:22:12 [http-nio-8080-exec-1] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-14 14:21:51 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Application Started successfully 
+2022-03-14 14:21:52 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 33337 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-14 14:21:52 [main] DEBUG c.e.demo.SpringSecurityApplication -
 				Running with Spring Boot v2.6.4, Spring v5.3.16
-2022-03-02 13:05:54 [main] INFO  c.e.demo.SpringSecurityApplication -
+2022-03-14 14:21:52 [main] INFO  c.e.demo.SpringSecurityApplication -
 				No active profile set, falling back to 1 default profile: "default"
-2022-03-02 13:05:55 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+2022-03-14 14:21:53 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
 				Filter 'jwtAthenticationfilter' configured for use
-2022-03-02 13:05:55 [main] INFO  c.e.demo.SpringSecurityApplication -
-				Started SpringSecurityApplication in 2.026 seconds (JVM running for 2.563)
-2022-03-02 13:06:02 [http-nio-8080-exec-2] DEBUG com.example.demo.Controller.Home -
+2022-03-14 14:22:16 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Application Started successfully 
+2022-03-14 14:22:16 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 33702 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-14 14:22:16 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-14 14:22:16 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-14 14:22:17 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-14 14:22:18 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 1.679 seconds (JVM running for 2.289)
+2022-03-14 14:22:38 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Application Started successfully 
+2022-03-14 14:22:39 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 34043 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-14 14:22:39 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-14 14:22:39 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-14 14:22:40 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-14 14:22:40 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 1.782 seconds (JVM running for 2.276)
+2022-03-14 14:22:47 [http-nio-8080-exec-1] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:22:47 [http-nio-8080-exec-1] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:22:47 [http-nio-8080-exec-1] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:22:47 [http-nio-8080-exec-1] INFO  c.e.d.config.JwtAthenticationfilter -
+				Token is not validate 
+2022-03-14 14:22:56 [http-nio-8080-exec-3] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:22:56 [http-nio-8080-exec-3] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:22:56 [http-nio-8080-exec-3] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:22:56 [http-nio-8080-exec-3] INFO  c.e.d.config.JwtAthenticationfilter -
+				Token is not validate 
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:23:01 [http-nio-8080-exec-4] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  c.e.d.config.JwtAthenticationfilter -
+				Token is not validate 
+2022-03-14 14:23:01 [http-nio-8080-exec-4] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  com.example.demo.jwthelper.JwtUtil -
+				Generate token for user
+2022-03-14 14:23:01 [http-nio-8080-exec-4] DEBUG com.example.demo.jwthelper.JwtUtil -
+				while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-14 14:23:01 [http-nio-8080-exec-4] INFO  com.example.demo.jwthelper.JwtUtil -
+				while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-14 14:23:28 [http-nio-8080-exec-5] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:23:28 [http-nio-8080-exec-5] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:23:28 [http-nio-8080-exec-5] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:23:28 [http-nio-8080-exec-5] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:23:28 [http-nio-8080-exec-5] DEBUG com.example.demo.Controller.Home -
 				login success done
-2022-03-02 13:06:10 [http-nio-8080-exec-3] DEBUG com.example.demo.Controller.Home -
-				login error 
+2022-03-14 14:23:28 [http-nio-8080-exec-5] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-14 14:23:38 [http-nio-8080-exec-6] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:23:38 [http-nio-8080-exec-6] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:23:38 [http-nio-8080-exec-6] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:23:38 [http-nio-8080-exec-6] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:23:38 [http-nio-8080-exec-6] INFO  com.example.demo.Controller.Home -
+				list the directory 
+2022-03-14 14:23:53 [http-nio-8080-exec-7] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:23:53 [http-nio-8080-exec-7] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:23:53 [http-nio-8080-exec-7] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:23:53 [http-nio-8080-exec-7] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:25:20 [http-nio-8080-exec-10] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:25:20 [http-nio-8080-exec-10] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:25:20 [http-nio-8080-exec-10] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:25:20 [http-nio-8080-exec-10] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:25:20 [http-nio-8080-exec-10] INFO  com.example.demo.Controller.Home -
+				Current directory 
+2022-03-14 14:25:32 [http-nio-8080-exec-2] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:25:32 [http-nio-8080-exec-2] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:25:32 [http-nio-8080-exec-2] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:25:32 [http-nio-8080-exec-2] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:25:38 [http-nio-8080-exec-1] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:25:38 [http-nio-8080-exec-1] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:25:38 [http-nio-8080-exec-1] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:25:38 [http-nio-8080-exec-1] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:25:38 [http-nio-8080-exec-1] INFO  com.example.demo.Controller.Home -
+				Current directory 
+2022-03-14 14:31:20 [http-nio-8080-exec-5] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:31:20 [http-nio-8080-exec-5] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:31:20 [http-nio-8080-exec-5] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:31:20 [http-nio-8080-exec-5] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:31:20 [http-nio-8080-exec-5] INFO  com.example.demo.Controller.Home -
+				Current working directory 
+2022-03-14 14:34:19 [main] INFO  c.e.d.SpringSecurityApplicationTests -
+				Starting SpringSecurityApplicationTests using Java 1.8.0_202 on INPNQLT251 with PID 42914 (started by user in /home/user/Documents/spring-security)
+2022-03-14 14:34:19 [main] DEBUG c.e.d.SpringSecurityApplicationTests -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-14 14:34:19 [main] INFO  c.e.d.SpringSecurityApplicationTests -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-14 14:34:21 [main] INFO  c.e.d.SpringSecurityApplicationTests -
+				Started SpringSecurityApplicationTests in 2.043 seconds (JVM running for 3.308)
+2022-03-14 14:36:13 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Application Started successfully 
+2022-03-14 14:36:14 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication v0.0.1-SNAPSHOT using Java 1.8.0_202 on INPNQLT251 with PID 44370 (/home/user/Documents/spring-security/target/spring-security-0.0.1-SNAPSHOT.jar started by user in /home/user/Documents/spring-security)
+2022-03-14 14:36:14 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-14 14:36:14 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-14 14:36:15 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-14 14:36:15 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 2.101 seconds (JVM running for 2.539)
+2022-03-14 14:37:30 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-14 14:37:30 [http-nio-8080-exec-1] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:37:30 [http-nio-8080-exec-1] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-14 14:37:30 [http-nio-8080-exec-1] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:37:30 [http-nio-8080-exec-1] INFO  com.example.demo.jwthelper.JwtUtil -
+				Generate token for user
+2022-03-14 14:37:30 [http-nio-8080-exec-1] DEBUG com.example.demo.jwthelper.JwtUtil -
+				while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-14 14:37:30 [http-nio-8080-exec-1] INFO  com.example.demo.jwthelper.JwtUtil -
+				while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-14 14:38:14 [http-nio-8080-exec-2] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:38:14 [http-nio-8080-exec-2] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:38:14 [http-nio-8080-exec-2] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:38:14 [http-nio-8080-exec-2] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:38:14 [http-nio-8080-exec-2] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-14 14:38:14 [http-nio-8080-exec-2] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-14 14:38:28 [http-nio-8080-exec-3] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:38:28 [http-nio-8080-exec-3] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:38:28 [http-nio-8080-exec-3] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:38:28 [http-nio-8080-exec-3] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:38:28 [http-nio-8080-exec-3] INFO  com.example.demo.Controller.Home -
+				list the directory 
+2022-03-14 14:38:57 [http-nio-8080-exec-5] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:38:57 [http-nio-8080-exec-5] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:38:57 [http-nio-8080-exec-5] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:38:57 [http-nio-8080-exec-5] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:39:06 [http-nio-8080-exec-6] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:39:06 [http-nio-8080-exec-6] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:39:06 [http-nio-8080-exec-6] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:39:06 [http-nio-8080-exec-6] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:39:06 [http-nio-8080-exec-6] INFO  com.example.demo.Controller.Home -
+				Current directory 
+2022-03-14 14:39:14 [http-nio-8080-exec-7] INFO  com.example.demo.jwthelper.JwtUtil -
+				retrieve username from jwt token
+2022-03-14 14:39:14 [http-nio-8080-exec-7] DEBUG com.example.demo.jwthelper.JwtUtil -
+				for retrieveing any information from token we will need the secret key
+2022-03-14 14:39:14 [http-nio-8080-exec-7] INFO  com.example.demo.jwthelper.JwtUtil -
+				Secret key 
+2022-03-14 14:39:14 [http-nio-8080-exec-7] INFO  c.e.d.S.CustomUserDetailsService -
+				User found 
+2022-03-14 14:39:14 [http-nio-8080-exec-7] INFO  com.example.demo.Controller.Home -
+				Current working directory 
+2022-03-14 14:51:08 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Application Started successfully 
+2022-03-14 14:51:34 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Application Started successfully 
+2022-03-14 14:52:01 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Application Started successfully 
+2022-03-14 14:52:01 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 56482 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-14 14:52:01 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-14 14:52:01 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-14 14:52:02 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
