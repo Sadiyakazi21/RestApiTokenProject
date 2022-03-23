@@ -1,0 +1,306 @@
+2022-03-13 03:31:32 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 03:31:32 [http-nio-8080-exec-1] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 03:31:49 [http-nio-8080-exec-3] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 03:31:49 [http-nio-8080-exec-3] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 03:32:13 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 494125 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 03:32:13 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 03:32:13 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 03:32:14 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 03:32:14 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 1.866 seconds (JVM running for 2.399)
+2022-03-13 03:32:21 [http-nio-8080-exec-2] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 03:32:21 [http-nio-8080-exec-2] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 03:34:02 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 494951 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 03:34:02 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 03:34:02 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 03:34:03 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 03:34:03 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 1.966 seconds (JVM running for 2.475)
+2022-03-13 03:35:13 [http-nio-8080-exec-5] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 03:35:13 [http-nio-8080-exec-5] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 03:53:10 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 495983 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 03:53:10 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 03:53:10 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 03:53:11 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 03:53:11 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 1.915 seconds (JVM running for 2.455)
+2022-03-13 03:53:30 [http-nio-8080-exec-3] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 03:53:30 [http-nio-8080-exec-3] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 03:53:53 [http-nio-8080-exec-4] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 03:53:53 [http-nio-8080-exec-4] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 03:54:06 [http-nio-8080-exec-5] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 03:54:06 [http-nio-8080-exec-5] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 04:54:26 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 501286 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 04:54:26 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 04:54:26 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 04:54:27 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 04:54:28 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 2.031 seconds (JVM running for 2.529)
+2022-03-13 04:54:39 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 04:54:39 [http-nio-8080-exec-1] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 04:55:01 [http-nio-8080-exec-3] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 04:55:01 [http-nio-8080-exec-3] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 04:56:00 [http-nio-8080-exec-5] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 04:56:00 [http-nio-8080-exec-5] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 04:58:42 [http-nio-8080-exec-2] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 04:58:42 [http-nio-8080-exec-2] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 04:58:58 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 04:58:58 [http-nio-8080-exec-1] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 05:02:25 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 501660 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 05:02:25 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 05:02:25 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 05:02:26 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 05:02:27 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 2.127 seconds (JVM running for 2.573)
+2022-03-13 05:02:31 [http-nio-8080-exec-2] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 05:02:31 [http-nio-8080-exec-2] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 05:04:05 [http-nio-8080-exec-5] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 05:04:05 [http-nio-8080-exec-5] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 05:04:40 [http-nio-8080-exec-6] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 05:04:40 [http-nio-8080-exec-6] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 05:05:06 [http-nio-8080-exec-7] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 05:05:06 [http-nio-8080-exec-7] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 05:05:50 [http-nio-8080-exec-8] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 05:05:50 [http-nio-8080-exec-8] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 05:06:32 [http-nio-8080-exec-9] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 05:06:32 [http-nio-8080-exec-9] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 05:06:47 [http-nio-8080-exec-10] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 05:06:47 [http-nio-8080-exec-10] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 05:07:09 [http-nio-8080-exec-2] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 05:07:09 [http-nio-8080-exec-2] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 05:07:48 [http-nio-8080-exec-3] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 05:07:48 [http-nio-8080-exec-3] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 05:07:59 [http-nio-8080-exec-4] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 05:07:59 [http-nio-8080-exec-4] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 05:08:28 [http-nio-8080-exec-5] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 05:08:28 [http-nio-8080-exec-5] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 05:09:07 [http-nio-8080-exec-6] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 05:09:07 [http-nio-8080-exec-6] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 12:48:52 [http-nio-8080-exec-9] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 12:48:52 [http-nio-8080-exec-9] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 13:13:11 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 505220 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 13:13:11 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 13:13:11 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 13:13:12 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 13:13:27 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 505279 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 13:13:27 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 13:13:27 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 13:13:28 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 13:14:49 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 505412 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 13:14:49 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 13:14:49 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 13:14:50 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 13:14:51 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 1.805 seconds (JVM running for 2.287)
+2022-03-13 13:14:58 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 13:14:58 [http-nio-8080-exec-1] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 13:17:48 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 505648 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 13:17:48 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 13:17:48 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 13:17:49 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 13:18:10 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 505733 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 13:18:10 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 13:18:10 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 13:18:11 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 13:18:43 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 505833 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 13:18:43 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 13:18:43 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 13:18:44 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 13:18:45 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 2.028 seconds (JVM running for 2.528)
+2022-03-13 13:19:04 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 13:19:04 [http-nio-8080-exec-1] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 13:21:25 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 506125 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 13:21:25 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 13:21:25 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 13:21:26 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 14:39:01 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 6045 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 14:39:01 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 14:39:01 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 14:39:02 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 14:51:29 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 8817 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 14:51:29 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 14:51:29 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 14:51:30 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 14:52:06 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 8989 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 14:52:06 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 14:52:06 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 14:52:07 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 14:53:12 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 10007 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 14:53:12 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 14:53:12 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 14:53:14 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 14:53:46 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 10182 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 14:53:46 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 14:53:46 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 14:53:47 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 14:53:48 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 2.096 seconds (JVM running for 2.663)
+2022-03-13 14:53:52 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 14:53:52 [http-nio-8080-exec-1] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 14:54:13 [http-nio-8080-exec-3] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 14:54:13 [http-nio-8080-exec-3] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 14:54:29 [http-nio-8080-exec-4] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 14:54:29 [http-nio-8080-exec-4] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 14:55:20 [http-nio-8080-exec-5] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 14:55:20 [http-nio-8080-exec-5] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 14:56:16 [http-nio-8080-exec-6] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 14:56:16 [http-nio-8080-exec-6] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 15:02:32 [http-nio-8080-exec-3] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 15:02:32 [http-nio-8080-exec-3] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 15:02:49 [http-nio-8080-exec-4] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 15:02:49 [http-nio-8080-exec-4] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-13 15:44:38 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 19840 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-13 15:44:38 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-13 15:44:38 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-13 15:44:39 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-13 15:44:39 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 1.672 seconds (JVM running for 2.159)
+2022-03-13 15:44:45 [http-nio-8080-exec-2] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-13 15:44:45 [http-nio-8080-exec-2] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-13 15:45:37 [http-nio-8080-exec-3] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-13 15:45:37 [http-nio-8080-exec-3] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 

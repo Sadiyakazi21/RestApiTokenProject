@@ -1,0 +1,58 @@
+2022-03-10 21:54:09 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Starting SpringSecurityApplication using Java 17.0.1 on INPNQLT251 with PID 15063 (/home/user/Documents/spring-security/target/classes started by user in /home/user/Documents/spring-security)
+2022-03-10 21:54:09 [main] DEBUG c.e.demo.SpringSecurityApplication -
+				Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-10 21:54:09 [main] INFO  c.e.demo.SpringSecurityApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2022-03-10 21:54:11 [main] DEBUG c.e.d.config.JwtAthenticationfilter -
+				Filter 'jwtAthenticationfilter' configured for use
+2022-03-10 21:54:12 [main] INFO  c.e.demo.SpringSecurityApplication -
+				Started SpringSecurityApplication in 2.66 seconds (JVM running for 3.433)
+2022-03-10 21:54:19 [http-nio-8080-exec-2] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 21:54:19 [http-nio-8080-exec-2] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-10 21:56:23 [http-nio-8080-exec-7] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 21:56:23 [http-nio-8080-exec-7] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-10 21:56:46 [http-nio-8080-exec-1] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 21:56:46 [http-nio-8080-exec-1] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-10 22:06:31 [http-nio-8080-exec-10] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 22:06:31 [http-nio-8080-exec-10] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-10 22:06:32 [http-nio-8080-exec-2] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 22:06:32 [http-nio-8080-exec-2] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-10 22:06:32 [http-nio-8080-exec-4] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 22:06:32 [http-nio-8080-exec-4] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-10 22:09:34 [http-nio-8080-exec-6] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 22:09:34 [http-nio-8080-exec-6] ERROR c.e.demo.Controller.JwtController -
+				Error !!!Wrong Credentials
+2022-03-10 22:09:46 [http-nio-8080-exec-8] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 22:09:46 [http-nio-8080-exec-8] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-10 22:10:14 [http-nio-8080-exec-9] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 22:10:14 [http-nio-8080-exec-9] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
+2022-03-10 22:10:53 [http-nio-8080-exec-6] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-10 22:10:53 [http-nio-8080-exec-6] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-10 22:13:32 [http-nio-8080-exec-9] DEBUG com.example.demo.Controller.Home -
+				login success done
+2022-03-10 22:13:32 [http-nio-8080-exec-9] INFO  com.example.demo.Controller.Home -
+				Authorization was successful 
+2022-03-10 23:21:13 [http-nio-8080-exec-3] WARN  c.e.demo.Controller.JwtController -
+				Use proper credential to login 
+2022-03-10 23:21:13 [http-nio-8080-exec-3] INFO  c.e.demo.Controller.JwtController -
+				Token Accessed
