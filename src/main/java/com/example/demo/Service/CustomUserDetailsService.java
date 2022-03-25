@@ -70,16 +70,6 @@ public class CustomUserDetailsService implements UserDetailsService{
 	
 
 	
-	  {
-	        try {
-	            String jsonInString =  new ObjectMapper().writerWithDefaultPrettyPrinter().writeValueAsString(
-	                    getNode(new File("/home/user/Documents/spring-security-1"))
-	            );
-	         System.out.println(jsonInString);
-	        } catch (JsonProcessingException e) {
-	            e.printStackTrace();
-	        }
-	    }
 
 
 	    public  Node getNode(File node){
