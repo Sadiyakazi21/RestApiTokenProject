@@ -1,0 +1,47 @@
+2022-03-29 11:33:44,899 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-10] Readuser from auth
+2022-03-29 11:33:44,903 WARN com.example.demo.Controller.JwtController [http-nio-8080-exec-10] Use proper credential to login 
+2022-03-29 11:33:44,903 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-10] User found 
+2022-03-29 11:33:44,904 INFO com.example.demo.Controller.JwtController [http-nio-8080-exec-10] Token Accessed
+2022-03-29 11:33:44,904 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-10] User found 
+2022-03-29 11:33:44,904 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-10] Generate token for user
+2022-03-29 11:33:44,904 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-10] while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
+2022-03-29 11:33:48,872 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-1] Readuser from auth
+2022-03-29 11:33:57,173 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-2] Readuser from auth
+2022-03-29 11:34:10,263 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-3] Readuser from auth
+2022-03-29 11:34:10,264 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] retrieve username from jwt token
+2022-03-29 11:34:10,264 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] Secret key 
+2022-03-29 11:34:10,266 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-3] User found 
+2022-03-29 11:34:10,268 INFO com.example.demo.Controller.Home [http-nio-8080-exec-3] Current working directory 
+2022-03-29 11:34:10,268 INFO com.example.demo.Controller.Home [http-nio-8080-exec-3] Current working directory 
+2022-03-29 11:34:24,178 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-4] Readuser from auth
+2022-03-29 11:34:24,178 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-4] retrieve username from jwt token
+2022-03-29 11:34:24,178 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-4] Secret key 
+2022-03-29 11:34:24,181 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-4] User found 
+2022-03-29 11:34:24,182 INFO com.example.demo.Controller.Home [http-nio-8080-exec-4] Current working directory 
+2022-03-29 11:34:24,182 INFO com.example.demo.Controller.Home [http-nio-8080-exec-4] Current working directory 
+2022-03-29 11:34:32,762 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-5] Readuser from auth
+2022-03-29 11:34:32,762 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-5] retrieve username from jwt token
+2022-03-29 11:34:32,762 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-5] Secret key 
+2022-03-29 11:34:32,763 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-5] User found 
+2022-03-29 11:34:32,764 INFO com.example.demo.Controller.Home [http-nio-8080-exec-5] list the directory 
+2022-03-29 11:34:45,914 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-7] Readuser from auth
+2022-03-29 11:34:45,915 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-7] retrieve username from jwt token
+2022-03-29 11:34:45,915 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-7] Secret key 
+2022-03-29 11:34:45,917 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-7] User found 
+2022-03-29 11:34:45,919 INFO com.example.demo.Controller.Home [http-nio-8080-exec-7] Current directory 
+2022-03-29 11:34:51,290 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-10] Readuser from auth
+2022-03-29 11:34:51,290 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-10] retrieve username from jwt token
+2022-03-29 11:34:51,290 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-10] Secret key 
+2022-03-29 11:34:51,292 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-10] User found 
+2022-03-29 11:34:51,294 INFO com.example.demo.Controller.Home [http-nio-8080-exec-10] list the directory 
+2022-03-29 11:34:59,382 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-1] Readuser from auth
+2022-03-29 11:34:59,383 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-1] retrieve username from jwt token
+2022-03-29 11:34:59,383 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-1] Secret key 
+2022-03-29 11:34:59,385 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-1] User found 
+2022-03-29 11:34:59,386 INFO com.example.demo.Controller.Home [http-nio-8080-exec-1] list the directory 
+2022-03-29 11:35:06,093 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-3] Readuser from auth
+2022-03-29 11:35:06,093 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] retrieve username from jwt token
+2022-03-29 11:35:06,093 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-3] Secret key 
+2022-03-29 11:35:06,094 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-3] User found 
+2022-03-29 11:35:06,096 INFO com.example.demo.Controller.Home [http-nio-8080-exec-3] Current working directory 
+2022-03-29 11:35:06,096 INFO com.example.demo.Controller.Home [http-nio-8080-exec-3] Current working directory 

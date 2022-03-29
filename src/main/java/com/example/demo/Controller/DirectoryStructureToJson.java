@@ -18,40 +18,40 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class DirectoryStructureToJson{
 
-    {
-        try {
-            String jsonInString =  new ObjectMapper().writerWithDefaultPrettyPrinter().writeValueAsString(
-                    getNode(new File("/home/user/Documents/spring-security-1"))
-            );
-            System.out.println(jsonInString);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
-    }
+//    {
+//        try {
+//            String jsonInString =  new ObjectMapper().writerWithDefaultPrettyPrinter().writeValueAsString(
+//                    getNode(new File("/home/user/Documents/spring-security-1"))
+//            );
+//            System.out.println(jsonInString);
+//        } catch (JsonProcessingException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
 
-    public static Node getNode(File node){
-        if(node.isDirectory()){
-            return new Node(node.getName(),node.getAbsolutePath(),"directory", getDirList( node));
-        }else{
-            return new Node(node.getName(),node.getAbsolutePath(),"file",null);
-        }
-    }
-
-   
-    public static List<Node> getDirList(File node){
-        List<Node> nodeList=new ArrayList<>();
-        for(File n : node.listFiles()){
-            nodeList.add(getNode(n));
-        }
-        return nodeList;
-    }
+//    public static Node getNode(File node){
+//        if(node.isDirectory()){
+//            return new Node(node.getName(),node.getAbsolutePath(),"directory", getDirList( node));
+//        }else{
+//            return new Node(node.getName(),node.getAbsolutePath(),"file",null);
+//        }
+//    }
+//
+//   
+//    public static List<Node> getDirList(File node){
+//        List<Node> nodeList=new ArrayList<>();
+//        for(File n : node.listFiles()){
+//            nodeList.add(getNode(n));
+//        }
+//        return nodeList;
+//    }
 
     public static class Node {
         private String name;
         private String location;
         private String type;
-        private List<Node> nodeList;
+   //     private List<Node> nodeList;
 
         public Node() { }
 
@@ -59,7 +59,7 @@ public class DirectoryStructureToJson{
             this.name = name;
             this.location = location;
             this.type = type;
-            this.nodeList = nodeList;
+         //   this.nodeList = nodeList;
         }
 
         public String getName() {
@@ -86,13 +86,13 @@ public class DirectoryStructureToJson{
             this.type = type;
         }
 
-        public List<Node> getNodeList() {
-            return nodeList;
-        }
+      //    public List<Node> getNodeList() {
+         //   return nodeList;
+      //  }
 
-        public void setNodeList(List<Node> nodeList) {
-            this.nodeList = nodeList;
-        }
+       // public void setNodeList(List<Node> nodeList) {
+           // this.nodeList = nodeList;
+       // }
     }
 
 }

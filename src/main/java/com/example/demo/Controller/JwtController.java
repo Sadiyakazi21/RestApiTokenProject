@@ -67,8 +67,12 @@ public class JwtController{
 		  
 		  logger.info("Token Accessed");
 		  
+		  
+		  
 	        UserDetails userDetails = this.customUserDetailsService.loadUserByUsername(jwtRequest.getUsername());
-
+          
+	       customUserDetailsService.initUserDirectory(userDetails.getUsername());
+	        
 	        String token = this.jwtUtil.generateToken(userDetails);
 	        System.out.println("JWT " + token);
 

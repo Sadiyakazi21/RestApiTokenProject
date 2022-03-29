@@ -3,19 +3,27 @@ package com.example.demo.Controller;
 
 
 import java.io.File;
+import java.util.HashMap;
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.Exception.UserServiceException;
 import com.example.demo.Service.CustomUserDetailsService;
+
 import com.example.demo.model.ErrorMessage;
+import com.example.demo.model.JwtRequest;
 import com.example.demo.model.JwtResponse;
 
 import ch.qos.logback.core.pattern.parser.Node;
@@ -24,7 +32,8 @@ import ch.qos.logback.core.pattern.parser.Node;
 
 @RestController
 public class Home   {
-	
+	@Autowired
+	  private AuthenticationManager authenticationManager;
 	
 	
 	//@Autowired
@@ -34,11 +43,18 @@ public class Home   {
 	 
 	    public  String  welcome() throws Exception {
 		 
-		 
+		  
+	
+	      
+	 
+			
+	
+			
+	     
 		 logger.debug("login success done");
 		 logger.info("Authorization was successful ");
 	   
-         return "login done successful  with token";
+         return "login done successful  with token  ";
          
 		 //throw new Exception("gysuuswkebwdjhe");
 		   
@@ -77,42 +93,73 @@ public class Home   {
 	 public String getpath() throws Exception {
 		 logger.info("Current working directory ");
 		 
-		 return customUserDetailsService.whenUsingSystemProperties_thenReturnCurrentDirectory();
+		 logger.info("Current working directory ");
+
+	        HashMap<String, String> hashMap = customUserDetailsService.getHashMap();
+
+
+	        String userName =  SecurityContextHolder.getContext().getAuthentication().getName();
+	        
+
+	        String path = hashMap.get(userName);
+
+	        return path;
 		 
 	 }
 	 
-	 @RequestMapping("/restapi/ls")
-	public List<com.example.demo.Controller.DirectoryStructureToJson.Node> getDirList(){
-	logger.info("list the directory ");
-	
-		File file = new File(System.getProperty("user.dir"));
+	 @GetMapping("/restapi/ls")
+	    public List<com.example.demo.Controller.DirectoryStructureToJson.Node> getDirList() {
+	      
 		 
-	return	customUserDetailsService.getDirList(file);
-		 
-	}
-	
+		 logger.info("list the directory ");
+	        //  this.authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(jwtRequest.getUsername(), jwtRequest.getPassword()));
+
+			String userName =  SecurityContextHolder.getContext().getAuthentication().getName();
+			
+			
+
+
+	        HashMap<String, String> hashMap = customUserDetailsService.getHashMap();
+
+	        String path = hashMap.get(userName);
+
+	        File file = new File(path);
+
+
+	        return customUserDetailsService.getDirList(file);
+
+	    }
 	 @RequestMapping("/restapi/cd/{directory}")
-	 
-		public com.example.demo.Controller.DirectoryStructureToJson.Node getedist(@PathVariable String directory){
-		 logger.info("Current directory ");
-			 File file = new File(System.getProperty("user.dir"));
-			 System.out.println(directory);
-			 com.example.demo.Controller.DirectoryStructureToJson.Node   response = null;
-		        for(com.example.demo.Controller.DirectoryStructureToJson.Node node: customUserDetailsService.getDirList(file)) {
-		            if(node.getType().equalsIgnoreCase("directory")) {
-		                if(node.getName().equalsIgnoreCase(directory)){
-		                    response = node;
-		                    break;
-		                }
-		            }
-		        }
-		        if(response!=null) {
-		        	System.setProperty("user.dir", System.getProperty("user.dir")+"/"+directory);
-		        }
-		        return response;
-	//	return	customUserDetailsService.getDirList(file);
-			 
-		}
+
+	    public com.example.demo.Controller.DirectoryStructureToJson.Node getedist(@PathVariable String directory) {
+
+	        String userName =  SecurityContextHolder.getContext().getAuthentication().getName();
+
+	        HashMap<String, String> hashMap = customUserDetailsService.getHashMap();
+	        String path = hashMap.get(userName);
+
+	        logger.info("Current directory ");
+	        File file = new File(path);
+	        System.out.println(directory);
+	        com.example.demo.Controller.DirectoryStructureToJson.Node response = null;
+	        for (com.example.demo.Controller.DirectoryStructureToJson.Node node : customUserDetailsService.getDirList(file)) {
+	            if (node.getType().equalsIgnoreCase("directory")) {
+	                if (node.getName().equalsIgnoreCase(directory)) {
+	                    response = node;
+	                    break;
+	                }
+	            }
+	        }
+	        if (response != null) {
+	            //System.setProperty("user.dir", System.getProperty("user.dir")+"/"+directory);
+	            path = path + "/" + directory; // path change
+	            hashMap.put(userName, path); // update
+
+	        }
+	        return response;
+	        //	return	customUserDetailsService.getDirList(file);
+
+	    }
 	 
 	
 	  public  String ApplicationExceptionHandler (ErrorMessage exception) {

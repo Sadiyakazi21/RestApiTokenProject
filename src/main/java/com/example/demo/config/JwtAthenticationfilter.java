@@ -88,6 +88,9 @@ public class JwtAthenticationfilter extends  OncePerRequestFilter {
                 System.out.println("Token is not validated..");
                 
                throw new UserServiceException("Token is not validated");
+              
+               
+               
             }
             }
 

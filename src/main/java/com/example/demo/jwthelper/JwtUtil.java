@@ -28,7 +28,7 @@ public class JwtUtil {
 	Logger logger = LoggerFactory.getLogger(JwtUtil.class);
     private static final long serialVersionUID = -2550185165626007488L;
 
-   public static final long JWT_TOKEN_VALIDITY = 5 * 60;
+   public static final long JWT_TOKEN_VALIDITY = 10 * 60;
     
    
   //  public static final long EXPIRATION_TIME = 900_000; // 15 mins
@@ -66,6 +66,7 @@ public class JwtUtil {
     {   logger.warn("check the if the token has expired");
         logger.info("check if the token has expired");
         final Date expiration = getExpirationDateFromToken(token);
+        
         return expiration.before(new Date());
     }
 
@@ -73,6 +74,9 @@ public class JwtUtil {
     public String generateToken(UserDetails userDetails) {
     	logger.info("Generate token for user");
         Map<String, Object> claims = new HashMap<>();
+        
+        
+        
         return doGenerateToken(claims, userDetails.getUsername());
     }
 
