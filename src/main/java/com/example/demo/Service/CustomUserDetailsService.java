@@ -92,30 +92,6 @@ public class CustomUserDetailsService implements UserDetailsService {
 		
 	}	
 	 
-//	void basedirectory(String path){  
-//		   //   File directory = new File(path);  
-//		 	 File directory = new File(System.getProperty("user.dir"));
-//		    
-//		String [] directoryContents = directory.list();  		    
-//		List<String> fileLocations = new ArrayList<String>();  
-// 	Map<String, String> mymap = new HashMap<String, String>();
-//	
-//		
-//	//move this to main as this will loose the previous folder values, so you can pass this also to this method and then return the same in the end
-//		for(String UserName: directoryContents) {  
-//		    File fileaddress = new File(String.valueOf(directory),UserName); //define the variable outside the loop
-//	    if(fileaddress.isDirectory()){ //here you check whether its a folder or a file
-//	        basedirectory(fileaddress.toString()); //in case of folder you call this method again
-//	    }else{ //in case of file
-//	        fileLocations.add(String.valueOf(fileaddress));   //add to the hashmap
-////		        mymap.put(UserName, String.valueOf(fileaddress.getParent()));  
-////		        System.out.println(mymap);  
-////		         
-////		    }
-////		    }  
-////		  }   
-////		
-//	
 
 	
 	 
@@ -130,8 +106,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 
 
 
-
-
+/*
 
 	public String whenUsingSystemProperties_thenReturnCurrentDirectory() {
 
@@ -139,16 +114,8 @@ public class CustomUserDetailsService implements UserDetailsService {
 		System.out.println("cwd:" + userDirectory);
 		return ("cwd:" + userDirectory);
 	}
+*/	
 
-//	{
-//		try {
-//			String jsonInString = new ObjectMapper().writerWithDefaultPrettyPrinter()
-//					.writeValueAsString(getNode(new File("/home/user/Documents/spring-security-1")));
-//			System.out.println(jsonInString);
-//		} catch (JsonProcessingException e) {
-//			e.printStackTrace();
-//		}
-//	}
 
 	public Node getNode(File node) {
 		if (node.isDirectory()) {
