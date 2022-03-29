@@ -1,8 +1,0 @@
-2022-03-15 14:31:06,134 INFO com.example.demo.SpringSecurityApplication [main] Started SpringSecurityApplication in 2.464 seconds (JVM running for 2.971)
-2022-03-15 14:31:21,865 INFO com.example.demo.config.JwtAthenticationfilter [http-nio-8080-exec-2] Readuser from auth
-2022-03-15 14:31:21,916 WARN com.example.demo.Controller.JwtController [http-nio-8080-exec-2] Use proper credential to login 
-2022-03-15 14:31:21,917 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-2] User found 
-2022-03-15 14:31:21,918 INFO com.example.demo.Controller.JwtController [http-nio-8080-exec-2] Token Accessed
-2022-03-15 14:31:21,918 INFO com.example.demo.Service.CustomUserDetailsService [http-nio-8080-exec-2] User found 
-2022-03-15 14:31:21,919 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-2] Generate token for user
-2022-03-15 14:31:21,919 INFO com.example.demo.jwthelper.JwtUtil [http-nio-8080-exec-2] while creating the token claims of the token, like Issuer, Expiration, Subject, and the ID
